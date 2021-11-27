@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93e46d14-82bb-43c9-bbbb-3db550d3ba43" name="Default Changelist" comment="">
+    <list default="true" id="93e46d14-82bb-43c9-bbbb-3db550d3ba43" name="Default Changelist" comment="Update readme">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/aws-cdk-stack.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/aws-cdk-stack.ts" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,7 +28,7 @@
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="D:\aws-cdk\s3\node_modules\typescript\lib" />
   </component>
   <component name="RunDashboard">
@@ -53,7 +54,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637999693269</updated>
       <workItem from="1637999696184" duration="57000" />
-      <workItem from="1638000141935" duration="4198000" />
+      <workItem from="1638000141935" duration="5436000" />
     </task>
     <task id="LOCAL-00001" summary="display bucket info">
       <created>1638003626160</created>
@@ -76,7 +77,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638004304482</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Update readme">
+      <created>1638004368227</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1638004368227</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +126,7 @@
     </ignored-roots>
     <MESSAGE value="display bucket info" />
     <MESSAGE value="git ignore node_modules" />
-    <option name="LAST_COMMIT_MESSAGE" value="git ignore node_modules" />
+    <MESSAGE value="Update readme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update readme" />
   </component>
 </project>

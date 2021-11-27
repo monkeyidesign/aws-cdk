@@ -20,6 +20,9 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
 * `cdk destroy AwsCdkStack`
 * `cdk doctor`
 
+```Parameters```
+* `cdk deploy --parameters duration=9`
+ 
 ## Docs
 ```
 cdk doc
