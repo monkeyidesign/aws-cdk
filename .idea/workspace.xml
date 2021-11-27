@@ -53,7 +53,7 @@
       <option name="presentableId" value="Default" />
       <updated>1637999693269</updated>
       <workItem from="1637999696184" duration="57000" />
-      <workItem from="1638000141935" duration="4148000" />
+      <workItem from="1638000141935" duration="4198000" />
     </task>
     <task id="LOCAL-00001" summary="display bucket info">
       <created>1638003626160</created>
@@ -69,7 +69,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638003913962</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="git ignore node_modules">
+      <created>1638004304482</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1638004304482</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

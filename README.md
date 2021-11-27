@@ -13,13 +13,13 @@ The `cdk.json` file tells the CDK Toolkit how to execute your app.
  * `cdk diff`        compare deployed stack with current state
  * `cdk synth`       emits the synthesized CloudFormation template
 
-```
-    * `cdk init app --language typescript`
-    * `cdk list`
-    * `aws s3 ls`
-    * `cdk destroy AwsCdkStack`
-    * `cdk doctor`
-``` 
+```--------------------------------``` 
+* `cdk init app --language typescript`
+* `cdk list`
+* `aws s3 ls`
+* `cdk destroy AwsCdkStack`
+* `cdk doctor`
+
 ## Docs
 ```
 cdk doc
