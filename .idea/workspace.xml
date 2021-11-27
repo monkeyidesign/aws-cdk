@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93e46d14-82bb-43c9-bbbb-3db550d3ba43" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/aws-cdk-stack.ts" beforeDir="false" afterPath="$PROJECT_DIR$/lib/aws-cdk-stack.ts" afterDir="false" />
-    </list>
+    <list default="true" id="93e46d14-82bb-43c9-bbbb-3db550d3ba43" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,7 +51,7 @@
       <updated>1637999693269</updated>
       <workItem from="1637999696184" duration="57000" />
       <workItem from="1638000141935" duration="5436000" />
-      <workItem from="1638005657777" duration="725000" />
+      <workItem from="1638005657777" duration="1441000" />
     </task>
     <task id="LOCAL-00001" summary="display bucket info">
       <created>1638003626160</created>
@@ -91,7 +88,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638005703316</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Fixed duration param">
+      <created>1638006399403</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1638006399403</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -135,6 +139,7 @@
     <MESSAGE value="git ignore node_modules" />
     <MESSAGE value="Update readme" />
     <MESSAGE value="Added param coding" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added param coding" />
+    <MESSAGE value="Fixed duration param" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed duration param" />
   </component>
 </project>
