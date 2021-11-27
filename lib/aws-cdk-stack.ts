@@ -19,7 +19,7 @@ export class rSamAwsCdkStack extends cdk.Stack {
             encryption: BucketEncryption.S3_MANAGED,
             lifecycleRules: [
                 {
-                    expiration: Duration.days(2)
+                    expiration: Duration.days(duration.valueAsNumber)
                 }
             ]
         })
