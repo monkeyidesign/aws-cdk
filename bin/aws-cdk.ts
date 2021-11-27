@@ -1,10 +1,10 @@
 #!/usr/bin/env node
 import 'source-map-support/register';
 import * as cdk from '@aws-cdk/core';
-import { AwsCdkStack } from '../lib/aws-cdk-stack';
+import { rSamAwsCdkStack } from '../lib/aws-cdk-stack';
 
 const app = new cdk.App();
-new AwsCdkStack(app, 'AwsCdkStack', {
+new rSamAwsCdkStack(app, 'rSamAwsCdkStack', {
   /* If you don't specify 'env', this stack will be environment-agnostic.
    * Account/Region-dependent features and context lookups will not work,
    * but a single synthesized template can be deployed anywhere. */
@@ -19,3 +19,4 @@ new AwsCdkStack(app, 'AwsCdkStack', {
 
   /* For more information, see https://docs.aws.amazon.com/cdk/latest/guide/environments.html */
 });
+// new rSamAwsCdkStack(app, 'AwsCdkStack', {});

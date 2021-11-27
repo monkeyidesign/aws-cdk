@@ -1,15 +1,19 @@
 import * as cdk from '@aws-cdk/core';
 // import * as sqs from '@aws-cdk/aws-sqs';
+import {Bucket, BucketEncryption} from "@aws-cdk/aws-s3";
+import {CfnOutput} from "@aws-cdk/core";
 
-export class AwsCdkStack extends cdk.Stack {
-  constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
-    super(scope, id, props);
+export class rSamAwsCdkStack extends cdk.Stack {
+    constructor(scope: cdk.Construct, id: string, props?: cdk.StackProps) {
+        super(scope, id, props);
+        const bucket = new Bucket(this, 'rSamFirstAppBucket', {
+            encryption: BucketEncryption.S3_MANAGED
+        })
 
-    // The code that defines your stack goes here
-
-    // example resource
-    // const queue = new sqs.Queue(this, 'AwsCdkQueue', {
-    //   visibilityTimeout: cdk.Duration.seconds(300)
-    // });
-  }
+        //display bucket info
+        new CfnOutput(this, 'bucket',{
+            value: bucket.bucketName
+        })
+    }
 }
+
